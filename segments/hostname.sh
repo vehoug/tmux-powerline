@@ -47,9 +47,10 @@ _get_hostname() {
 		return 1
 	fi
 
+	local logo=" "
 	if [ "$format" == "short" ]; then
-		echo "${hname/.*/}"
+		echo "${logo}${hname/.*/}"
 	elif [ "$format" == "long" ]; then
-		echo "${hname}"
+		echo "${logo}${hname}"
 	fi
 }

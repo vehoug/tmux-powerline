@@ -163,46 +163,46 @@ __get_yrno_condition_symbol() {
 	local condition=$1
 	case "$condition" in
 	"clearsky_day")
-		echo "☀️ "
+		echo "󰖙"
 		;;
 	"clearsky_night")
-		echo "🌙"
+		echo ""
 		;;
 	"fair_day")
-		echo "🌤 "
+		echo ""
 		;;
 	"fair_night")
-		echo "🌜"
+		echo ""
 		;;
 	"fog")
-		echo "🌫 "
+		echo "󰖑"
 		;;
 	"cloudy")
-		echo "☁️ "
+		echo ""
 		;;
 	"rain" | "lightrain" | "heavyrain" | "sleet" | "lightsleet" | "heavysleet")
-		echo "🌧 "
+		echo "󰖗"
 		;;
 	"heavyrainandthunder" | "heavyrainshowersandthunder_day" | "heavyrainshowersandthunder_night" | "heavysleetandthunder" | "heavysleetshowersandthunder_day" | "heavysnowandthunder" | "heavysnowshowersandthunder_day" | "heavysnowshowersandthunder_night" | "lightrainandthunder" | "lightrainshowersandthunder_day" | "lightrainshowersandthunder_night" | "lightsleetandthunder" | "lightsnowandthunder" | "lightssleetshowersandthunder_day" | "lightssleetshowersandthunder_night" | "lightssnowshowersandthunder_day" | "lightssnowshowersandthunder_night" | "rainandthunder" | "rainshowersandthunder_day" | "rainshowersandthunder_night" | "sleetandthunder" | "sleetshowersandthunder_day" | "sleetshowersandthunder_night" | "snowandthunder" | "snowshowersandthunder_day" | "snowshowersandthunder_night")
-		echo "⛈️ "
+		echo "󰙾"
 		;;
 	"heavyrainshowers_day" | "heavysleetshowers_day" | "heavysleetshowersandthunder_night" | "lightrainshowers_day" | "lightsleetshowers_day" | "rainshowers_day" | "sleetshowers_day")
-		echo "🌦️ "
+		echo "󰼴"
 		;;
 	"heavyrainshowers_night" | "heavysleetshowers_night" | "lightrainshowers_night" | "lightsleetshowers_night" | "rainshowers_night" | "sleetshowers_night")
-		echo "☔"
+		echo "󰖖"
 		;;
 	"snow" | "lightsnow" | "heavysnow")
-		echo "❄️ "
+		echo "󰖘"
 		;;
 	"lightsnowshowers_day" | "lightsnowshowers_night" | "heavysnowshowers_day" | "heavysnowshowers_night" | "snowshowers_day" | "snowshowers_night")
-		echo "🌨 "
+		echo ""
 		;;
 	"partlycloudy_day")
-		echo "⛅"
+		echo "󰖕"
 		;;
 	"partlycloudy_night")
-		echo "🌗"
+		echo "󰼱"
 		;;
 	*)
 		echo "?"
