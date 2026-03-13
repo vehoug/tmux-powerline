@@ -8,3 +8,5 @@ themes/*
 !themes/default.sh
 !themes/bubble.sh
 !themes/base16.sh
+
+segments/tmux-mem-cpu-load/
